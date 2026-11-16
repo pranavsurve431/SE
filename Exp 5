@@ -1,0 +1,19 @@
+Sr. No.	Command Name	Git Command
+1	Check Git Version	:git --version
+2	Clone Repository	:git clone https://github.com/softengg/SE-Lab.git
+3	Open Repository	:cd SE-Lab
+4	Create Homepage File :	touch index.html
+5	Check Repository Status:	git status
+6	Add Homepage File:	git add index.html
+7	Commit Homepage:	git commit -m "Added homepage"
+8	Push to Main Branch:	git push origin main
+9	Create Feature Branch:	git checkout -b feature-login
+10	Create Login File:	touch login.html
+11	Add All Files:	git add .
+12	Commit Login Page:	git commit -m "Added login page"
+13	Push Feature Branch:	git push origin feature-login
+14	Switch to Main Branch:	git checkout main
+15	Pull Latest Changes:	git pull origin main
+16	Delete Local Branch:	git branch -d feature-login
+17	Delete Remote Branch:	git push origin --delete feature-login
+18	View Commit History:	git log
