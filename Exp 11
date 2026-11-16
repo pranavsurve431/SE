@@ -1,0 +1,7 @@
+1. Open Apache JMeter
+2. Create a new test plan
+3. Add > Thread > Thread Group (No of threads:100, Ramup:100, Loop:10)
+4. Add > Config Elements > HTTP Request Defaults (Path: www.google.com)
+5. Add > Sampler > HTTP Defaul (path: calendar)
+6. Add > Event Listener > Graph Reults
+7. Run the test
