@@ -1,0 +1,19 @@
+1. Open Mozilla Firefox browser.
+2. Launch Selenium IDE extension.
+3. Select **Create New Project** from the welcome window.
+4. Enter the project name as **Login Test** and click OK.
+5. Click on the **Record** button.
+6. Enter the base URL: `https://www.selenium.dev/` and click **Start Recording**.
+7. The browser will automatically open the Selenium website.
+8. Right-click on the website and select **Selenium IDE**.
+9. Click **Assert** and select **Title**.
+10. Return to Selenium IDE and review the recorded steps such as open, click, etc.
+11. Add a new test case named **TC2** and click Add.
+12. Open the Selenium website and navigate to the **Getting Started** section.
+13. Review the three main options: Selenium WebDriver, Selenium IDE, and Selenium Grid.
+14. Open the Selenium IDE page from the Selenium website.
+15. Use the website navigation to access the available Selenium resources.
+16. Use the browser context menu on the Help page when required.
+17. Right click on "Need Help > Assert > Text"
+18. Return to Selenium IDE and review the recorded steps.
+19. Verify the recorded commands such as **open, click, and assert**.
