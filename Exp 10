@@ -1,0 +1,16 @@
+1. Open Mozilla Firefox browser.
+2. Launch Selenium IDE and open the existing project **Login Test**.
+3. Select the required test case (TC1).
+4. Right-click in the command list and select **Insert New Command**.
+5. Insert the **Store Title** command.
+6. Enter `title` as the value for storing the page title.
+7. Insert the **Assert Title** command and set the Selenium IDE page title as the target.
+8. Insert an **If** command in the test case.
+9. Enter the condition `${title}=="Selenium"` to check the stored title.
+10. Insert an **Open** command and set the target to the Selenium IDE page.
+11. Insert the **End** command to close the conditional block.
+12. Run test case **TC1** using the **Run Current Test** option.
+13. Check the execution log for errors. Initially, the test may fail if the variable `${title}` is not defined correctly.
+14. Correct the test commands and run TC1 again.
+15. Verify that all commands are marked successful and the execution log displays successful completion.
+16. Observe the browser output. The screenshot shows a **404 Element not found** page.
